@@ -2,5 +2,7 @@ language: java
 script:
   - mvn clean
   - mvn package
+  - docker build -f Dockerfile -t tps/basic-info:8 .
+  - docker run -it  -p 8080:8080 tps/basic-info:8
 #  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 # https://docs.travis-ci.com/user/build-stages/     stage build tutorial
