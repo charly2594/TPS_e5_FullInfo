@@ -2,8 +2,8 @@ language: java
 script:
   - mvn clean
   - ls -l
-  - mvn exec:java -Dexec.mainClass=RPCServerBasicInfo
-  - mvn exec:java -Dexec.mainClass=RPCClient
-  - mvn package
+#  - mvn exec:java -Dexec.mainClass=RPCServerBasicInfo
+#  - mvn exec:java -Dexec.mainClass=RPCClient
+#  - mvn package
 #  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 # https://docs.travis-ci.com/user/build-stages/     stage build tutorial
