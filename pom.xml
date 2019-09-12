@@ -6,7 +6,7 @@
 
     <groupId>groupId</groupId>
     <artifactId>cardServiceJava</artifactId>
-    <version>BasicInfo</version>
+    <version>FullInfo</version>
     <packaging>jar</packaging>
 
 
@@ -71,7 +71,7 @@
                             <transformers>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>RPCServerBasicInfo</mainClass>
+                                    <mainClass>RPCServerFullInfo</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
